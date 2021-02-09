@@ -2,8 +2,59 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.list-inline{
+  margin-bottom: 0px;
+}
+/* buttons */
+.burger-button{
+  background: transparent;
+  padding: 5px;
+  font-size: 30px;
+}
+.empty_button{
+  padding: 6px 20px;
+  background-color: transparent;
+  border: 1px solid #1268fb;
+  color: #1268fb;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: normal;
+}
 /* nav_bar */
-
+.nav_bar{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+}
+.nav_bar .logo img{
+  max-height: 32px;
+  margin-bottom: 8px;
+}
+.nav_bar li{
+  margin-left: 18px;
+}
+.main-nav i,
+.secondary-nav i{
+  margin-left: 5px;
+  font-size: 13px;
+}
+.nav_bar li a{
+  color: #000035;
+  font-size: 14px;
+}
+.nav_bar li a:hover{
+  color: #1268fb;
+  text-decoration: none;
+}
+.burger-button i{
+  font-size: 25px;
+}
 /* hero */
 
 /* section customers */
@@ -25,13 +76,7 @@ body{
 /* help button */
 
 /* @@ media @@ */
-  /* media xs */
-@media screen and (max-width: 767px){
-}
-  /* media md */
-@media screen and (min-width: 768px) and (max-width: 991px){
-}
-  /* media lg */
-@media screen and (min-width: 992px){
-
-}
+  @media screen and (max-width: 992px){
+  }
+  @media screen and (max-width: 768px){
+  }
