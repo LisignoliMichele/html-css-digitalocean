@@ -8,17 +8,49 @@ body{
 /* buttons */
 .burger-button{
   background: transparent;
-  padding: 5px;
   font-size: 30px;
 }
 .empty_button{
-  padding: 6px 20px;
+  padding: 10px;
   background-color: transparent;
   border: 1px solid #1268fb;
   color: #1268fb;
   border-radius: 5px;
   display: inline-block;
   line-height: normal;
+}
+.btn_blue{
+  width: 100%;
+  padding:15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #136ffb;
+  color: #fff;
+  font-size: 20px;
+}
+.btn_google{
+  width: 100%;
+  padding:15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  background-image: url("../img/google-icon.png");
+  background-size: 8%;
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  box-shadow: 5px 10px 15px #cacaca;
+}
+/* tipo */
+h1{
+  font-size: 60px;
+  line-height: 120%;
+  color: #fff;
+}
+h4{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 /* nav_bar */
 .nav_bar{
@@ -37,7 +69,7 @@ body{
   margin-bottom: 8px;
 }
 .nav_bar li{
-  margin-left: 18px;
+  margin-left: 15px;
 }
 .main-nav i,
 .secondary-nav i{
@@ -48,15 +80,70 @@ body{
   color: #000035;
   font-size: 14px;
 }
+.burger-button i{
+  font-size: 25px;
+}
 .nav_bar li a:hover{
   color: #1268fb;
   text-decoration: none;
 }
-.burger-button i{
-  font-size: 25px;
+.nav_bar .empty_button:hover{
+  background-color: #1268fb;
+  color: #fff;
 }
 /* hero */
-
+.hero{
+  background-image: url("../img/bg-hero.svg");
+  background-size: cover;
+  background-position: 45%;
+  margin-top: 70px;
+}
+.hero_title,
+.sing_up_box{
+  margin: 200px 0;
+}
+.hero p{
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 30px;
+}
+.sing_up_box{
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+}
+.sing_up_box input{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+}
+.sing_up_box .h4-blue{
+  color: #136ffb;
+}
+.sing_up_box ::placeholder{
+  color: #cacaca;
+  font-size: 20px;
+}
+.btn_blue:hover{
+  color: #fff;
+  background-color: #001ac2;
+}
+.btn_google:hover{
+  box-shadow: 7px 6px 15px #cacaca;
+  font-size: 19px;
+}
+.sing_up_box small{
+  color: #000;
+}
+.sing_up_box small a{
+  text-decoration: underline;
+  color: #136ffb;
+}
 /* section customers */
 
 /* section deploy&scale */
@@ -76,7 +163,12 @@ body{
 /* help button */
 
 /* @@ media @@ */
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
+}
+@media screen and (max-width: 768px){
+  .hero_title{
+    margin: 50px 0 20px 0;
   }
-  @media screen and (max-width: 768px){
-  }
+  .sing_up_box{
+    margin: 20px 0 50px 0;
+}
