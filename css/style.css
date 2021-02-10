@@ -216,7 +216,8 @@ section{
   margin-top: 50px;
 }
 .deploy-elements img{
-  max-width: 40px;
+  min-width: 45px;
+  margin-bottom: 20px;
 }
 .deploy-elements p{
   font-size: 16px;
@@ -224,7 +225,7 @@ section{
   color: #5b6987;
 }
 .deploy-elements li:hover{
-  border-left: 2px solid #136ffb;;
+  border-left: 2px solid #136ffb;
 }
 .deploy-elements a:hover{
   text-decoration: none;
@@ -252,9 +253,28 @@ section{
   margin-top: 30px;
   color: #136ffb;
 }
-
 /* section features */
-
+.features_box a{
+  font-size: 16px;
+  color: #136ffb;
+  margin-top: 20px;
+}
+.features_box{
+  margin-top: 50px;
+}
+.features_box img{
+  min-width: 45px;
+  margin-bottom: 20px;
+}
+.features_box p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #5b6987;
+}
+  .features_box i{
+  margin-left: 5px;
+  font-size: 13px; 
+  }
 /* section aroundTHEworld */
 
 /* section loveDigitalOcean */
