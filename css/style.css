@@ -72,6 +72,7 @@ h2{
   font-size: 36px;
   font-weight: 700;
   color: #031b4e;
+  margin-bottom: 30px;
 }
 h5{
   font-size: 18px;
@@ -273,10 +274,38 @@ section{
 }
   .features_box i{
   margin-left: 5px;
-  font-size: 13px; 
+  font-size: 13px;
   }
 /* section aroundTHEworld */
-
+#aroundTHEworld{
+  background-color: #031b4e;
+  background-image: url("../img/bg-map.svg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#aroundTHEworld h2{
+  color: #fff;
+}
+.region:not(:last-of-type){
+  border-bottom: 1px solid #fff;
+}
+.graphic{
+  margin-top: 30px;
+  padding: 40px;
+}
+.region{
+  padding-top: 10px;
+}
+.region p{
+font-size: 16px;
+color: #fff;
+}
+.cap p{
+  font-weight: 700;
+}
+.region a{
+  color: #00d7d2;
+}
 /* section loveDigitalOcean */
 
 /* section getStarted */
