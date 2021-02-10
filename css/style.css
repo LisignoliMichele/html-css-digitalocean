@@ -8,6 +8,10 @@ body{
 .bg_grey{
   background-color: #f3f5f9;
 }
+.container_small{
+  max-width: 750px;
+  margin: auto;
+}
 /* buttons */
 .burger-button{
   background: transparent;
@@ -60,6 +64,15 @@ h3{
   font-size: 15px;
   font-weight: 700;
   color: #5b6987;
+}
+h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #031b4e;
+}
+h5{
+  font-size: 18px;
+  color: #031b4e;
 }
 /* nav_bar */
 .nav_bar{
@@ -156,6 +169,15 @@ h3{
   text-decoration: underline;
   color: #136ffb;
 }
+/* SECTIONS */
+section p{
+  font-size: 20px;
+  color: #5b6987;
+  font-weight: 100;
+}
+section{
+  padding: 150px 0;
+}
 /* section trust */
 #trust{
   padding: 65px 0;
@@ -173,7 +195,38 @@ h3{
   margin-left: 5px;
 }
 /* section deploy&scale */
-
+.deploy_box{
+  min-height: 220px;
+  padding-right: 15px;
+}
+.deploy-elements li{
+  list-style: none;
+  border-left: 1px solid #5b6987;
+}
+.deploy-elements a{
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 45px;
+  color: #5b6987;
+}
+.deploy-elements{
+  margin-top: 50px;
+}
+.deploy-elements img{
+  max-width: 40px;
+}
+.deploy-elements p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #5b6987;
+}
+.deploy-elements li:hover{
+  border-left: 2px solid #136ffb;;
+}
+.deploy-elements a:hover{
+  text-decoration: none;
+  color: #031b4e;
+}
 /* section designedFORdevelopers*/
 
 /* section features */
