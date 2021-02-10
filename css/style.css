@@ -12,6 +12,9 @@ body{
   max-width: 750px;
   margin: auto;
 }
+ul{
+  padding: 0;
+}
 /* buttons */
 .burger-button{
   background: transparent;
@@ -206,7 +209,7 @@ section{
 .deploy-elements a{
   font-size: 18px;
   padding-left: 20px;
-  line-height: 45px;
+  line-height: 70px;
   color: #5b6987;
 }
 .deploy-elements{
