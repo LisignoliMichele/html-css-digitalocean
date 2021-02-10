@@ -231,6 +231,27 @@ section{
   color: #031b4e;
 }
 /* section designedFORdevelopers*/
+.carousel{
+  margin-top: 80px;
+}
+.chevron{
+  font-size: 60px;
+  margin-top: 20%;
+}
+.chevron .left{
+  color: #5b6987;
+}
+.chevron .right{
+  color: #031b4e;
+}
+.carousel img{
+  width:100%;
+  margin-bottom: 30px;
+}
+.bullets{
+  margin-top: 30px;
+  color: #136ffb;
+}
 
 /* section features */
 
@@ -246,6 +267,9 @@ section{
 
 /* @@ media @@ */
 @media screen and (max-width: 992px){
+  .carousel h5{
+    margin:70px 0;
+  }
 }
 @media screen and (max-width: 768px){
   .hero_title{
