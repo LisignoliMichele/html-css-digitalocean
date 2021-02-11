@@ -244,6 +244,7 @@ section{
 .box-2{
   width: 80%;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 .box-2 img{
   width: 100%;
@@ -311,7 +312,26 @@ color: #fff;
   color: #00d7d2;
 }
 /* section loveDigitalOcean */
-
+.main_carousel_2{
+  background-color: #fff;
+  padding: 70px 30px;
+}
+.main_carousel_2 img{
+  max-width: 70%;
+  margin-bottom: 30px;
+}
+.main_carousel_2 small{
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.main_carousel_2 a{
+  color: #136ffb;
+  font-size: 18px;
+}
+.main_carousel_2 a i{
+  margin-left: 5px;
+}
 /* section getStarted */
 
 /* footer */
@@ -344,6 +364,5 @@ color: #fff;
   }
   .bullets{
     margin-top: 60px;
-    background-color: orange;
   }
 }
