@@ -378,7 +378,68 @@ footer{
   margin-bottom: 20px;
 }
 /* help button */
-
+.SammyShark{
+  width: 80px;
+  height: 80px;
+  background-color: #1200f4;
+  background-image: url("../img/Sammy_Shark.png");
+  background-size: 98%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 5;
+}
+.notifications{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+}
+.notifications p{
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 25px;
+}
+.question{
+  max-width: 300px;
+  position: fixed;
+  bottom: 30px;
+  right: 150px;
+  z-index: 5;
+  display: none;
+}
+.question p{
+  font-size: 18px;
+  background-color: #fff;
+  color: #031e42;
+  padding:15px;
+  border-radius: 15px;
+}
+.question::after{
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+  position: absolute;
+  left: 299px;
+  bottom: 25px;
+}
+.helpbutton:hover .question{
+  display: block;
+}
+.helpbutton:hover .notifications{
+  display: none;
+}
 /* @@ media @@ */
 @media screen and (max-width: 992px){
   .carousel h5{
@@ -405,5 +466,21 @@ footer{
   }
   .bullets{
     margin-top: 60px;
+  }
+  .SammyShark{
+    bottom: 150px;
+    left: 40px;
+  }
+  .question{
+    bottom: 35px;
+    left: 40px;
+  }
+  .question::after{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -19px;
+    left: 25px;
+    z-index: 100;
   }
 }
