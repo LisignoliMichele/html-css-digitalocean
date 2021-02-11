@@ -51,6 +51,14 @@ ul{
   font-size: 20px;
   box-shadow: 5px 10px 15px #cacaca;
 }
+.btn_getStarted{
+  padding: 10px;
+  background-color: #fff;
+  color: #1268fb;
+  border-radius: 5px;
+  font-size: 20px;
+  display: inline-block;
+}
 /* tipo */
 h1{
   font-size: 60px;
@@ -180,7 +188,7 @@ section p{
   font-weight: 100;
 }
 section{
-  padding: 150px 0;
+  padding: 120px 0;
 }
 /* section trust */
 #trust{
@@ -333,7 +341,13 @@ color: #fff;
   margin-left: 5px;
 }
 /* section getStarted */
-
+#getStarted{
+  background: rgb(28,0,91);
+  background: linear-gradient(356deg, rgba(28,0,91,1) 0%, rgba(0,73,170,1) 100%, rgba(36,0,255,1) 100%);
+}
+#getStarted h2{
+  color: #fff;
+}
 /* footer */
 
 /* help button */
