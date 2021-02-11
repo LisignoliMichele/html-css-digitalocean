@@ -86,6 +86,10 @@ h5{
   font-size: 18px;
   color: #031b4e;
 }
+h6{
+  font-size: 18px;
+  font-weight: 700;
+}
 /* nav_bar */
 .nav_bar{
   position: fixed;
@@ -343,13 +347,36 @@ color: #fff;
 /* section getStarted */
 #getStarted{
   background: rgb(28,0,91);
-  background: linear-gradient(356deg, rgba(28,0,91,1) 0%, rgba(0,73,170,1) 100%, rgba(36,0,255,1) 100%);
+  background: linear-gradient(180deg, rgba(28,0,91,1) 0%, rgba(0,76,170,1) 100%, rgba(36,0,255,1) 100%);
 }
 #getStarted h2{
   color: #fff;
 }
 /* footer */
-
+footer{
+  background-color: #031e42;
+  color: #fff;
+  padding:30px 0;
+}
+.list_footer li{
+  list-style: none;
+}
+.list_footer a{
+  color: #fff;
+}
+.list_footer{
+  margin-top: 20px;
+}
+.footer_left p{
+  color: #c4d4f5;
+}
+.footer_left a{
+  color: #c4d4f5;
+}
+.footer_left img{
+  max-width: 50px;
+  margin-bottom: 20px;
+}
 /* help button */
 
 /* @@ media @@ */
