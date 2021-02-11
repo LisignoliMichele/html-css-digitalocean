@@ -233,22 +233,26 @@ section{
   color: #031b4e;
 }
 /* section designedFORdevelopers*/
-.carousel{
-  margin-top: 80px;
+.box{
+  display: inline-block;
+  vertical-align: middle;
 }
-.chevron{
+.arrow{
+  width: 10%;
   font-size: 60px;
-  margin-top: 20%;
 }
-.chevron .left{
+.box-2{
+  width: 80%;
+  margin-bottom: 30px;
+}
+.box-2 img{
+  width: 100%;
+}
+.box-1{
   color: #5b6987;
 }
-.chevron .right{
+.box-3{
   color: #031b4e;
-}
-.carousel img{
-  width:100%;
-  margin-bottom: 30px;
 }
 .bullets{
   margin-top: 30px;
@@ -317,7 +321,7 @@ color: #fff;
 /* @@ media @@ */
 @media screen and (max-width: 992px){
   .carousel h5{
-    margin:70px 0;
+    margin:30px 0;
   }
 }
 @media screen and (max-width: 768px){
@@ -330,5 +334,16 @@ color: #fff;
   .customer_logo img{
     width: calc((100% / 2) - 4px);
     padding: 40px;
+  }
+  .carousel .arrow{
+    display: none;
+  }
+  .carousel .box-2{
+    position: relative;
+    left: 10%;;
+  }
+  .bullets{
+    margin-top: 60px;
+    background-color: orange;
   }
 }
