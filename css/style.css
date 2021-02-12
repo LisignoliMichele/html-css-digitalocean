@@ -15,6 +15,11 @@ body{
 ul{
   padding: 0;
 }
+:focus {
+  background: #f3f5f9;
+  border-color: #136ffb;
+  color: #136ffb;
+}
 /* buttons */
 .burger-button{
   background: transparent;
@@ -418,7 +423,7 @@ footer{
 }
 .question p{
   font-size: 18px;
-  background-color: #fff;
+  background-color: #f4f9e0;
   color: #031e42;
   padding:15px;
   border-radius: 15px;
@@ -429,7 +434,7 @@ footer{
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #fff;
+  border-left: 10px solid #f4f9e0;
   position: absolute;
   left: 299px;
   bottom: 25px;
@@ -478,7 +483,7 @@ footer{
   .question::after{
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid #f4f9e0;
     top: -19px;
     left: 25px;
     z-index: 100;
